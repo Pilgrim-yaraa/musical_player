@@ -15,6 +15,10 @@
     margin-right: auto;
 }
 
+.none {
+    display: none !important;
+}
+
 
 /* шапка навигация */
 
@@ -254,6 +258,12 @@
     box-shadow: -4px -4px 4px 0px #FFFFFF1A;
     box-shadow: 4px 4px 4px 0px #00000040;
     margin-bottom: 48px;
+    transition: opacity 0.2s ease;
+}
+
+.mac-btn:hover {
+    transition: 0.8s;
+    color:#F3501A;
 }
 
 .mac-btn2 {
@@ -272,6 +282,12 @@
     box-shadow: -4px -4px 4px 0px #FFFFFF1A;
     box-shadow: 4px 4px 4px 0px #00000040;
     margin-bottom: 135px;
+    transition: opacity 0.2s ease;
+}
+
+.mac-btn2:hover {
+    transition: 0.8s;
+    color:#F3501A;
 }
 
 .macbook-text-content h2 {
@@ -296,7 +312,7 @@
 
 .mac-nav {
     text-align: center;
-    border-bottom: 1px solid #000000B2;
+    text-decoration: underline;
     color: #000000B2;
     width: 379px;
     font-size: 20px;
@@ -310,4 +326,51 @@
     top: 50px;
 }
 
+/* поле footer тут должны быть ссылки, но мне лень их делать поэтому просто список, а так я понимаю что нужно было сделать */
+
+.footer {
+    background: linear-gradient(180deg, #D53005 0%, #000000 4.01%);
+}
+
+.footer-content {
+    padding-top: 120px;
+}
+
+.footer-nav {
+    color: white;
+    display: flex;
+    justify-content: right;
+}
+
+.footer-nav ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.footer-nav ul + ul {
+    padding-left: 147px;
+}
+
+.footer-nav ul li:first-child {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+}     
+
+
+.footer-help-list {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 74px;
+}
+
+.footer-help img {
+    width: 138px;
+    height: 100px;
+    font-family: "Montserrat"
+}
 
